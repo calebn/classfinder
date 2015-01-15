@@ -1,9 +1,9 @@
 'use strict';
 
 module.exports = {
-	db: 'mongodb://localhost/my-mean-blog-test',
+	db: 'mongodb://localhost/classfinder-test',
 	app: {
-		title: 'Kyle Rader\'s playground - Test Environment'
+		title: 'Classfinder 2.0 - Test'
 	},
 	facebook: {
 		clientID: process.env.FACEBOOK_ID || 'APP_ID',

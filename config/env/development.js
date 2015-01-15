@@ -1,8 +1,7 @@
 'use strict';
 
 module.exports = {
-	db: 'mongodb://localhost/my-mean-blog-dev',
-	port: 3001,
+	db: 'mongodb://localhost/classfinder-dev',
 	app: {
 		title: 'Kyle Rader\'s playground - Development Environment'
 	},
