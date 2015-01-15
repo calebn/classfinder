@@ -1,4 +1,11 @@
 #!/bin/bash
 
-export PORT=$1
-forever start --uid $2 -a server.js
+if [ $# -lt 2 ]
+then
+    echo 'start usage: ./start [forever uid] [port]'
+else
+
+    export PORT=$2
+    forever start --uid $1 -a server.js
+fi
+
